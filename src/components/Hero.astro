@@ -4,7 +4,7 @@ import Section from "./sections/Section.astro";
 import Github from "../icons/github.astro";
 import Linkedin from "../icons/linkedin.astro";
 import Correo from "../icons/correo.astro";
-import Ubication from "../icons/ubication.astro";
+import Earth from "../icons/earth.astro";
 
 const { name, label, image, location, profiles, phone, email } = basics;
 const { city, region, countryCode } = location;
@@ -21,7 +21,7 @@ const SOCIAL_ICONS = {
       <h1>{name}</h1>
       <h2>{label}</h2>
       <span>
-        <Ubication />
+        <Earth />
         {city}, {region}, {countryCode}
       </span>
 
@@ -87,7 +87,7 @@ const SOCIAL_ICONS = {
   .info {
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 0.2rem;
     padding-right: 32px;
   }
   h1 {
@@ -110,7 +110,7 @@ const SOCIAL_ICONS = {
     color: #666;
     display: flex;
     align-items: center;
-    gap: 0.25rem;
+    gap: 0.5rem;
     font-size: 0.85rem;
     letter-spacing: -0.05rem;
   }

@@ -6,7 +6,7 @@
     "email": "EveloxD@gmail.com",
     "phone": "(57) 3103414891",
     "url": "https://github.com/Evelo00",
-    "summary": "Soy un apasionado por la programacion, me gusta aprender cosas nuevas y siempre estoy en busca de nuevos retos. actualmente tengo conocimientos en desarollo web y movil y espero seguir aprendiendo mas.",
+    "summary": "En el año 2023, obtuve mi título de Desarrollador Web y actualmente me encuentro en búsqueda activa de oportunidades laborales. Me dedico a mejorar constantemente mis habilidades y a mantenerme al día en la vanguardia del desarrollo web, con interés y próximamente enfocando mis estudios hacia esta rama, especialmente en el desarrollo Mobile. Me caracterizo por ser una persona responsable y organizada. Me gusta trabajar en equipo y aprender de los demás, siempre con una actitud positiva y proactiva.",
     "location": {
       "address": " ",
       "postalCode": "230003",
@@ -29,11 +29,11 @@
   },
   "work": [
     {
-      "name": "Winer",
+      "name": "Winer Colombia",
       "position": "Frontend Developer",
       "url": "https://www.linkedin.com/company/winercolombia/mycompany/",
       "startDate": "2024-02-02",
-      "endDate": "2024-03-31",
+      "endDate": null,
       "summary": "Encargado de desarrollar la pagina web de la empresa, usando el patrón MVC utilizando tecnologias como HTML, CSS, JavaScript y React. incorporando metodologias agiles como Scrum, manejo de Git y GitHub.",
       "highlights": [
         "Refactorización de código",
@@ -44,7 +44,7 @@
   "volunteer": [
     {
       "organization": "Munia",
-      "position": "Volunteer",
+      "position": "Volunteer Web Developer",
       "url": "https://organization.com/",
       "startDate": "2023-09-01",
       "endDate": "2023-10-31",
@@ -108,7 +108,7 @@
   ],
   "certificates": [
     {
-      "name":"Curso profesional de Git y GitHub en Platzi",
+      "name": "Curso profesional de Git y GitHub en Platzi",
       "date": "2023-01-15",
       "issuer": "Platzi",
       "url": "https://platzi.com/p/eyver_1406/curso/1557-git-github/diploma/detalle/"
@@ -125,9 +125,135 @@
   ],
   "skills": [
     {
-      "name": "Web Development Full Stack",
+      "name": "HTML",
       "level": "Junior",
-      "keywords": ["HTML", "CSS", "JavaScript", "React", "Angular", "Material UI", "WordPress","Redux", "Node.js", "Express", "Sequelize", "PostgreSQL", "Sequelize", "JWT", "TDD", "BDD", "Scrum"]	
+      "keywords": ["HTML5", "Pug", "HXML"]
+    },
+    {
+      "name": "Astro",
+      "level": "Junior",
+      "keywords": ["Astro"]
+    },
+    {
+      "name": "CSS",
+      "level": "Junior",
+      "keywords": ["CSS3"]
+    },
+    {
+      "name": "Sass",
+      "level": "Junior",
+      "keywords": ["Sass"]
+    },
+    {
+      "name": "Bootstrap",
+      "level": "Junior",
+      "keywords": ["Bootstrap"]
+    },
+    {
+      "name": "Materialize",
+      "level": "Junior",
+      "keywords": ["Materialize"]
+    },
+    {
+      "name": "Tawilwind CSS",
+      "level": "Junior",
+      "keywords": ["Tailwind CSS"]
+    },
+    {
+      "name": "Material UI",
+      "level": "Junior",
+      "keywords": ["Material UI"]
+    },
+
+    {
+      "name": "JavaScript",
+      "level": "Junior",
+      "keywords": ["ES6"]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Junior",
+      "keywords": ["TypeScript"]
+    },
+    {
+      "name": "React",
+      "level": "Junior",
+      "keywords": ["React", "Redux"]
+    },
+    {
+      "name": "Angular",
+      "level": "Junior",
+      "keywords": ["Angular.js"]
+    },
+    {
+      "name": "Redux",
+      "level": "Junior",
+      "keywords": ["Redux"]
+    },
+    {
+      "name": "Node.js",
+      "level": "Junior",
+      "keywords": ["Node.js"]
+    },
+    {
+      "name": "Express",
+      "level": "Junior",
+      "keywords": ["Express"]
+    },
+    {
+      "name": "Sequlize",
+      "level": "Junior",
+      "keywords": ["Sequelize"]
+    },
+    {
+      "name": "JWT",
+      "level": "Junior",
+      "keywords": ["JWT"]
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "Junior",
+      "keywords": ["PostgreSQL"]
+    },
+    {
+      "name": "Jest & Mocha",
+      "level": "Junior",
+      "keywords": ["Jest", "Mocha"]
+    },
+    {
+      "name": "Scrum & Kanban",
+      "level": "Junior",
+      "keywords": ["Scrum", "Kanban"]
+    },
+    {
+      "name": "Control de versiones",
+      "level": "Junior",
+      "keywords": ["Git", "GitHub"]
+    },
+    {
+      "name": "Postman",
+      "level": "Junior",
+      "keywords": ["Postman"]
+    },
+    {
+      "name": "Insomnia",
+      "level": "Junior",
+      "keywords": ["Insomnia"]
+    },
+    {
+      "name": "VScode",
+      "level": "Junior",
+      "keywords": ["VSCode"]
+    },
+    {
+      "name": "Trello",
+      "level": "Junior",
+      "keywords": ["Trello"]
+    },
+    {
+      "name": "Slack",
+      "level": "Junior",
+      "keywords": ["Slack"]
     }
   ],
   "languages": [
@@ -146,20 +272,37 @@
   ],
   "interests": [
     {
-        "name": "Technology",
-        "keywords": ["Programming", "Web Development", "Mobile Development"]
+      "name": "Technology",
+      "keywords": ["Programming", "Web Development", "Mobile Development"]
     },
     {
-        "name": "Art",
-        "keywords": ["Pixel Art", "Digital Art", "Traditional Art", "Photography"]
+      "name": "Art",
+      "keywords": ["Pixel Art", "Digital Art", "Traditional Art", "Photography"]
     },
     {
-        "name": "Music",
-        "keywords": ["Lo-Fi","Rock","Pop", "Reggaeton", "Salsa", "Bachata","Cumbia", "Reggae", "Rap", "Hip-Hop"]
+      "name": "Music",
+      "keywords": [
+        "Lo-Fi",
+        "Rock",
+        "Pop",
+        "Reggaeton",
+        "Salsa",
+        "Bachata",
+        "Cumbia",
+        "Reggae",
+        "Rap",
+        "Hip-Hop"
+      ]
     },
     {
       "name": "Video Games",
-      "keywords": ["The Legend of Zelda", "The binding of Isaac", "Hollow Knight", "Minecraft", "League of Legends"]
+      "keywords": [
+        "The Legend of Zelda",
+        "The binding of Isaac",
+        "Hollow Knight",
+        "Minecraft",
+        "League of Legends"
+      ]
     }
   ],
   "references": [
@@ -170,20 +313,39 @@
   ],
   "projects": [
     {
+      "name": "Portafolio tipo Cv",
+      "startDate": "2023-03-01",
+      "endDate": "2023-04-01",
+      "description": "Proyecto personal para mostrarme al mundo como desarrollador web, en donde de paso pude aprender tecnologias como Astro y Tailwind CSS, ademas de mejorar mis habilidades en HTML, CSS y JavaScript. Esta proyecto planeo mejorarlo en un futuro y mantenerlo lo mas actualizado posible.",
+      "highlights": [
+        "Desarrollo, mantenimiento y actualización de la pagina web",
+        "Desarrollo de nuevas funcionalidades",
+        "Creacion desde cero de una SPA"
+      ],
+      "url": "https://github.com/Evelo00/portfolio"
+    },
+    {
+      "name": "Dogs API",
+      "startDate": "2023-04-01",
+      "endDate": "2023-05-01",
+      "description": "En proyecto fue un proyecto individual donde consumia la api 'DogsAPI' en la cual pude trabajar desde la base de datos, hasta agregar funcionalidades como el filtrado combinado, searchbar y formularios con validaciones de Javascript.",
+      "highlights": [
+        "Desarrollo, mantenimiento y actualización de la pagina web",
+        "Desarrollo de nuevas funcionalidades"
+      ],
+      "url": "https://github.com/Evelo00/PI-Dogs-main"
+    },
+    {
       "name": "ClotheStore",
       "startDate": "2023-05-01",
       "endDate": "2023-06-01",
       "description": "Proyecto final del bootcamp SoyHenry en donde hicimos uso de todo el stack de PERN donde mis funciones fueron desde el back en la creación de enrutamientos y facilitar la obtención de datos, como en el Front en la creación de componentes como el filtrado combinado y la sección de favoritos. por parte fuera de lo técnico, me encargue del gitflow de los commits en github, ayudando a su revisión y que todo anduviera de la mejor manera con un sistema de ramas personales, una dev y producción",
-      "highlights": ["Resolucion de problemas", "Manejo de Git y GitHub", "Desarrollo de nuevas funcionalidades"],
+      "highlights": [
+        "Resolucion de problemas",
+        "Manejo de Git y GitHub",
+        "Desarrollo de nuevas funcionalidades"
+      ],
       "url": "https://front-six-liart.vercel.app/login"
-    },
-    {
-        "name": "Dogs API",
-        "startDate": "2023-04-01",
-        "endDate": "2023-05-01",
-        "description": "En proyecto fue un proyecto individual donde consumia la api 'DogsAPI' en la cual pude trabajar desde la base de datos, hasta agregar funcionalidades como el filtrado combinado, searchbar y formularios con validaciones de Javascript.",
-        "highlights": ["Desarrollo, mantenimiento y actualización de la pagina web", "Desarrollo de nuevas funcionalidades"],
-        "url": "https://github.com/Evelo00/PI-Dogs-main"
     }
   ]
 }
