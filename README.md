@@ -1,54 +1,42 @@
-# Astro Starter Kit: Basics
+# Hoja de Vida Web
 
-```sh
-npm create astro@latest -- --template basics
-```
+Esta es una aplicación de hoja de vida web diseñada para permitir a los usuarios crear y mostrar su curriculum vitae de una manera elegante y profesional. La aplicación utiliza tecnologías modernas para su desarrollo y despliegue.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+## Stacks
+• Astro - El framework web de la nueva época.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+• Typescript - JavaScript con sintaxis de tipado.
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+• Ninja Keys - Menu desplegable con atajos de teclado hecho en puro Javascript.
 
-## 🚀 Project Structure
+## Despliegue
 
-Inside of your Astro project, you'll see the following folders and files:
+La aplicación está desplegada utilizando Astro y Netlify. Astro es un marco de trabajo moderno que permite construir aplicaciones web con componentes web estándar y herramientas modernas como React. Netlify es una plataforma de alojamiento web y automatización que facilita el despliegue continuo de aplicaciones web.
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+Puedes acceder a la hoja de vida web en [https://evedev.netlify.app/]
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+Basado en el diseño de Bartosz Jarocki https://github.com/BartoszJarocki/cv
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+## Cómo utilizar
 
-Any static assets, like images, can be placed in the `public/` directory.
+Para usar esta aplicación para tu propia hoja de vida, simplemente sigue estos pasos:
 
-## 🧞 Commands
+1. Clona este repositorio en tu máquina local.
+2. Modifica el archivo `.json` que contiene la información de tu hoja de vida. Puedes agregar, editar o eliminar secciones según tus necesidades.
+3. Personaliza el diseño y el estilo de la aplicación según tus preferencias.
+4. Implementa cualquier funcionalidad adicional que desees agregar a tu hoja de vida.
+5. Una vez que estés satisfecho con los cambios, despliega la aplicación en tu propia cuenta de Netlify o en la plataforma de alojamiento de tu elección.
 
-All commands are run from the root of the project, from a terminal:
+## Actualizaciones futuras
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+La aplicación está diseñada para ser fácilmente modificable y extensible. Puedes continuar actualizando tu hoja de vida agregando nuevas secciones, funcionalidades o mejorando el diseño según evolucionen tus experiencias y habilidades.
 
-## 👀 Want to learn more?
+## Contribuciones
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+¡Las contribuciones son bienvenidas! Si tienes ideas para mejorar esta aplicación, no dudes en abrir un issue o enviar una solicitud de extracción en el repositorio de GitHub.
+
+## Contacto
+
+Si tienes alguna pregunta o sugerencia, no dudes en ponerte en contacto conmigo a través de [tu dirección de correo electrónico o cualquier otro método de contacto].
+
+¡Gracias por usar la Hoja de Vida Web! Espero que te ayude a destacar tus habilidades y experiencias de manera efectiva.
