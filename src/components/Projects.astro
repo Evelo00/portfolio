@@ -8,32 +8,38 @@ import { projects } from "../cv.json";
   <ul>
     {
       projects.map(
-        ({ name, startDate, endDate, description, highlights, url }) => {
+        ({
+          name,
+          startDate,
+          endDate,
+          description,
+          highlights,
+          url,
+          isActive,
+        }) => {
           return (
             <li>
               <article>
                 <header>
-                  <h3>{name}</h3>
-                  <a
-                    href={url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    title="Ver proyecto o su Github"
-                  >
-                    Ver proyecto
-                  </a>
+                  <h4>
+                    <a
+                      href={url}
+                      target="_blank"
+                      title="Ver proyecto o su Github"
+                    >
+                      {name}
+                    </a>
+                    {isActive && <span title="Activo">&bull;</span>}
+                  </h4>
                 </header>
                 <footer>
-                  <p hidden>{description}</p>
+                  <p class="description">{description}</p>
                   <p>
                     {startDate} - {endDate}
                   </p>
-                  <ul>
-                    {highlights.map((highlight) => {
-                        return <li>{highlight}</li>;
-                        })
-                    }
-                  </ul>
+                  {highlights.map((highlight) => {
+                    return <span>{highlight}</span>;
+                  })}
                 </footer>
               </article>
             </li>
@@ -44,27 +50,90 @@ import { projects } from "../cv.json";
   </ul>
 </Section>
 
-
 <style>
   ul {
-   display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1rem;
+    margin-inline: -16px;
   }
 
-  li {
-    list-style: none;
+  article {
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    border: 1px solid #f2f2f2;
+    padding: 16px;
+    height: 100%;
   }
 
-  h3 {
-    margin-bottom: 0.5rem;
-  }
-
-  a {
-    color: var(--color-primary);
+  article a {
+    color: #111;
     text-decoration: none;
   }
 
-  a:hover {
+  article a:hover {
     text-decoration: underline;
   }
+
+  article h4 span {
+    color: rgb(0, 188, 47);
+    animation-name: flicker;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+  }
+
+  article p {
+    font-size: 0.75;
+    line-height: 1.2;
+    margin-bottom: 4px;
+  }
+
+  footer {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    gap: 1px;
+    font-size: 0.6rem;
+  }
+
+  footer span {
+    border-radius: 6px;
+    background: #eee;
+    padding: 0.2rem 0.6rem;
+    font-weight: 500;
+    font-size: 0.8rem;
+    color: black;
+  }
+
+  @keyframes flicker {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.25;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @media (width <= 700px) {
+    ul {
+      margin-inline: 0px;
+    }
+
+    article {
+      border: none;
+      box-shadow: 0 1px 1px #f2f2f2;
+      padding: 0 0 16px 0;
+    }
+  }
+
+  @media print {
+    article h3 span {
+      animation-name: none;
+    }
+  }
+</style>

@@ -5,6 +5,7 @@ import Github from "../icons/github.astro";
 import Linkedin from "../icons/linkedin.astro";
 import Correo from "../icons/correo.astro";
 import Earth from "../icons/earth.astro";
+import Phone from "../icons/phone.astro";
 
 const { name, label, image, location, profiles, phone, email } = basics;
 const { city, region, countryCode } = location;
@@ -13,6 +14,10 @@ const SOCIAL_ICONS = {
   Github,
   Linkedin,
 };
+
+const linkedInfo = profiles.find(({ network }) => network === "LinkedIn");
+const linkedUrl = linkedInfo?.url;
+const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
 ---
 
 <Section>
@@ -24,56 +29,59 @@ const SOCIAL_ICONS = {
         <Earth />
         {city}, {region}, {countryCode}
       </span>
-
-      <footer>
-        {
-          email && (
-            <a
-              href={`mailto:${email}`}
-              title={`Enviar correo a ${name} al correo ${email}`}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Correo />
-            </a>
-          )
-        }
-        <!-- {
-                        phone && (
-                            <a 
-                            href={`tel:${phone}`}
-                            title={`Llamar a ${name} al número ${phone}`}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            >
-                            robar icono 
-                            {phone}
-                            </a>
-                            )
-                } -->
-        {
-          profiles &&
-            profiles.map(({ network, url, username }) => {
-              const icon = network.toLowerCase();
-              const href = SOCIAL_ICONS[icon] + username;
-              return (
-                <a
-                  href={url}
-                  title={`Visitar el perfil de ${name} en ${network}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {icon === "github" && <Github />}
-                  {icon === "linkedin" && <Linkedin />}
-                </a>
-              );
-            })
-        }
+      <footer class="print">
+        {printInfo}
+      </footer>
+      <footer class="no-print">
+          {
+            email && (
+              <a
+                href={`mailto:${email}`}
+                title={`Enviar correo a ${name} al correo ${email}`}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Correo />
+              </a>
+            )
+          }
+          {
+            phone && (
+              <a
+                href={`tel:${phone}`}
+                title={`Llamar a ${name} al número ${phone}`}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Phone />
+              </a>
+            )
+          }
+          {
+            profiles &&
+              profiles.map(({ network, url, username }) => {
+                const icon = network.toLowerCase();
+                const href = SOCIAL_ICONS[icon] + username;
+                return (
+                  <a
+                    href={url}
+                    title={`Visitar el perfil de ${name} en ${network}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {icon === "github" && <Github />}
+                    {icon === "linkedin" && <Linkedin />}
+                  </a>
+                )
+              })
+          }
       </footer>
     </div>
-    <img src={image} alt={name} />
-    <!-- "image": "https://avatars.githubusercontent.com/u/71297169?v=4", -->
+    <figure>
+      <img src={image} alt={name} />
+    </figure>
   </div>
+  <!-- "image": "https://avatars.githubusercontent.com/u/71297169?v=4", -->
 </Section>
 
 <style>
@@ -115,6 +123,8 @@ const SOCIAL_ICONS = {
     letter-spacing: -0.05rem;
   }
   footer {
+    color: #555;
+    font-size: 0.65rem;
     display: flex;
     gap: 4px;
     margin-top: 8px;
@@ -135,9 +145,37 @@ const SOCIAL_ICONS = {
 
   footer a:hover {
     background: #eee;
+    border: 1px solid #ddd;
   }
   a {
     color: inherit;
     text-decoration: none;
+  }
+
+   @media (width <= 700px) {
+    .container {
+      flex-direction: column-reverse;
+    }
+
+    .info {
+      justify-content: center;
+      align-items: center;
+      padding-right: 0;
+      text-align: center;
+    }
+
+    figure {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    h2 {
+      text-wrap: balance;
+    }
+
+    figure {
+      margin: 0 auto;
+    }
   }
 </style>

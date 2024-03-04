@@ -1,30 +1,39 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import About from '../components/About.astro';
-import Projects from '../components/Projects.astro';
-import Skills from '../components/Skills.astro';
-import Experience from '../components/Experience.astro';
-import Education from '../components/Education.astro';
-import Hero from '../components/Hero.astro';
-import KeyboardManager from '../components/sections/KeyboardManager.astro';
+import Layout from "../layouts/Layout.astro";
+import About from "../components/About.astro";
+import Projects from "../components/Projects.astro";
+import Skills from "../components/Skills.astro";
+import Experience from "../components/Experience.astro";
+import Education from "../components/Education.astro";
+import Hero from "../components/Hero.astro";
+import KeyboardManager from "../components/sections/KeyboardManager.astro";
+
+import { basics } from "../cv.json";
+const { name, label } = basics;
 ---
 
-<Layout title="Minimalist Porfolio">
-	<main>
-		<Hero />
-		<About />
-		<Experience />
-		<Education />
-		<Projects />
-		<Skills />
-	</main>
-	<KeyboardManager />
+<Layout title={`Portfolio of ${name} - ${label}`}>
+  <main>
+    <Hero />
+    <About />
+    <Experience />
+    <Education />
+    <Projects />
+    <Skills />
+  </main>
+  <KeyboardManager />
 </Layout>
 
 <style>
-	main {
-		padding: 4rem;
-		margin: auto;
-		width: 100%;
-	}
+  main {
+    padding: 4rem;
+    margin: auto;
+    width: 100%;
+  }
+
+  @media (width <= 700px) {
+    main {
+      padding: 2rem;
+    }
+  }
 </style>
