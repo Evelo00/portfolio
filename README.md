@@ -37,6 +37,6 @@ La aplicación está diseñada para ser fácilmente modificable y extensible. Pu
 
 ## Contacto
 
-Si tienes alguna pregunta o sugerencia, no dudes en ponerte en contacto conmigo a través de [tu dirección de correo electrónico o cualquier otro método de contacto].
+Si tienes alguna pregunta o sugerencia, no dudes en ponerte en contacto conmigo a través de [EveloxD@gmail.com].
 
 ¡Gracias por usar la Hoja de Vida Web! Espero que te ayude a destacar tus habilidades y experiencias de manera efectiva.
