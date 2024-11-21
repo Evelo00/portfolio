@@ -11,6 +11,7 @@ import { volunteer } from "../cv.json";
         const startYear = new Date(startDate).getFullYear();
         const endYear =
           endDate !== null ? new Date(endDate).getFullYear() : "Present";
+        const endDates = endDate !== null ? endDate : "Present";
         const years = `${startYear} - ${endYear}`;
         return (
           <li>
@@ -23,7 +24,9 @@ import { volunteer } from "../cv.json";
                 <time>{years}</time>
               </header>
               <footer>
-                <p>{startDate} - Actualidad</p>
+                <p>
+                  {startDate} - {endDate !== null ? endDate : "Present"}
+                </p>
                 <p>{summary}</p>
               </footer>
             </article>
@@ -38,7 +41,7 @@ import { volunteer } from "../cv.json";
         ({ organization, startDate, endDate, position, summary }) => {
           const startYear = new Date(startDate).getFullYear();
           const endYear =
-            endDate !== null ? new Date(endDate).getFullYear() : "Presente";
+            endDate !== null ? new Date(endDate).getFullYear() : "Present";
           const years = `${startYear} - ${endYear}`;
           return (
             <li>

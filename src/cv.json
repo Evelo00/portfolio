@@ -29,11 +29,26 @@
   },
   "work": [
     {
-      "name": "Winer Colombia",
+      "name": "Maitres",
+      "position": "Front-end Developer",
+      "url": "",
+      "startDate": "2024-05-01",
+      "endDate": null,
+      "summary": "Encargado del mantenimiento, actualización y creacion de componentes, utilizando tecnologías como React, TypeScript y TailwindCSS. Incorporando metodologías ágiles como Scrum y consumo de APIs.",
+      "highlights": [
+        "Refactorización de código, mejoras en la estructura y rendimiento de la página web",
+        "Features, fixes, mantenimiento y actualización de la página web",
+        "Manejo de Git y GitHub, control de versiones y ramas, pull requests, code reviews",
+        "mejora de la experiencia de usuario, SEO y accesibilidad, responsive design",
+        "Desarrollo de nuevas funcionalidades, envio de correos, manejo de sesiones, etc."
+      ]
+    },
+    {
+      "name": "Winner Colombia",
       "position": "Front-end Developer",
       "url": "https://www.linkedin.com/company/winercolombia/mycompany/",
       "startDate": "2024-02-02",
-      "endDate": null,
+      "endDate": "2024-04-04",
       "summary": "Encargado de desarrollar la página web de la empresa, usando el patrón MVC, utilizando tecnologías como HTML, CSS, JavaScript y React. Incorporando metodologías ágiles como Scrum, manejo de Git y GitHub.",
       "highlights": [
         "Refactorización de código",
@@ -130,6 +145,16 @@
       "keywords": ["HTML5", "Pug", "HXML"]
     },
     {
+      "name": "MVC",
+      "level": "Junior",
+      "keywords": ["Model, controller"]
+    },
+    {
+      "name": "ClickUp",
+      "level": "Junior",
+      "keywords": ["ClickUp"]
+    },
+    {
       "name": "Astro",
       "level": "Junior",
       "keywords": ["Astro"]
@@ -182,7 +207,7 @@
     },
     {
       "name": "Angular",
-      "level": "Junior",
+      "level": "Trainee",
       "keywords": ["Angular.js"]
     },
     {
@@ -254,6 +279,11 @@
       "name": "Slack",
       "level": "Junior",
       "keywords": ["Slack"]
+    },
+    {
+      "name": "WordPress",
+      "level": "Junior",
+      "keywords": ["WordPress"]
     }
   ],
   "languages": [
