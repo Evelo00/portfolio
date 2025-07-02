@@ -1,38 +1,47 @@
 ---
-import Section from './sections/Section.astro';
+import Section from "./sections/Section.astro";
 
-import { education } from '../cv.json';
-import { certificates } from '../cv.json';
+import { education } from "../cv.json";
+import { certificates } from "../cv.json";
 ---
 
 <Section title="Educación">
-    <ul>
-        {education.map(({ institution, area, studyType, startDate, endDate }) => (
-            <li>
-                <h3>{institution}</h3>
-                <p>{area} • {studyType}</p>
-                <p>{startDate} • {endDate}</p>
-            </li>
-        ))}
-    </ul>
-    <ul>
-        {certificates.map(({ name, issuer, date }) => (
-            <li>
-                <h3>{name}</h3>
-                <p>{issuer}</p>
-                <p>{date}</p>
-            </li>
-        ))}
-    </ul>
-
-    </Section>
-
-
-    <style>
-    ul {
-       display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 1rem;
+  <ul>
+    {
+      education.map(({ institution, area, studyType, startDate, endDate }) => (
+        <li>
+          <h3>{institution}</h3>
+          <p>
+            {area} • {studyType}
+          </p>
+          <p>
+            {startDate} • {endDate}
+          </p>
+        </li>
+      ))
     }
-    </style>
-            
+  </ul>
+  <ul>
+    {
+      certificates.map(({ name, issuer, date }) => (
+        <li class="certificate">
+          <h3>{name}</h3>
+          <p>{issuer}</p>
+          <p>{date}</p>
+        </li>
+      ))
+    }
+  </ul>
+</Section>
+
+<style>
+  ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 1rem;
+  }
+
+  .certificate {
+    margin-top: 1rem;
+  }
+</style>

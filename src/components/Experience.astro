@@ -44,7 +44,7 @@ import { volunteer } from "../cv.json";
             endDate !== null ? new Date(endDate).getFullYear() : "Present";
           const years = `${startYear} - ${endYear}`;
           return (
-            <li>
+            <li class="volunteer">
               <article>
                 <header>
                   <div>
@@ -97,6 +97,9 @@ import { volunteer } from "../cv.json";
     margin-bottom: 4px;
   }
 
+  .volunteer {
+    margin-top: 32px;
+  }
   time {
     color: #555;
     font-size: 0.85rem;
