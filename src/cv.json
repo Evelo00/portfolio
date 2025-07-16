@@ -34,13 +34,13 @@
       "url": "",
       "startDate": "2024-05-01",
       "endDate": null,
-      "summary": "Encargado del mantenimiento, actualización y creacion de componentes, utilizando tecnologías como React, TypeScript y TailwindCSS. Incorporando metodologías ágiles como Scrum y consumo de APIs.",
+      "summary": "Responsable del mantenimiento, actualización y creación de componentes reutilizables utilizando React, TypeScript y TailwindCSS. Trabajo bajo metodologías ágiles como Scrum, con consumo de APIs REST y aplicación de buenas prácticas de desarrollo web.",
       "highlights": [
-        "Refactorización de código, mejoras en la estructura y rendimiento de la página web",
-        "Features, fixes, mantenimiento y actualización de la página web",
-        "Manejo de Git y GitHub, control de versiones y ramas, pull requests, code reviews",
-        "mejora de la experiencia de usuario, SEO y accesibilidad, responsive design",
-        "Desarrollo de nuevas funcionalidades, envio de correos, manejo de sesiones, etc."
+        "Refactorización del código base para mejorar estructura y rendimiento del sitio",
+        "Desarrollo de nuevas funcionalidades y resolución de bugs",
+        "Mejoras en la experiencia de usuario (UX), SEO, accesibilidad y diseño responsive",
+        "Manejo de Git y GitHub: control de versiones, ramas, pull requests y code reviews",
+        "Implementación de funcionalidades como envío de correos y gestión de sesiones"
       ]
     },
     {
@@ -49,10 +49,24 @@
       "url": "https://www.linkedin.com/company/winercolombia/mycompany/",
       "startDate": "2024-02-02",
       "endDate": "2024-04-04",
-      "summary": "Encargado de desarrollar la página web de la empresa, usando el patrón MVC, utilizando tecnologías como HTML, CSS, JavaScript y React. Incorporando metodologías ágiles como Scrum, manejo de Git y GitHub.",
+      "summary": "Desarrollo completo del sitio web corporativo utilizando el patrón MVC, aplicando tecnologías como HTML, CSS, JavaScript y React. Trabajo colaborativo con metodologías ágiles (Scrum) y uso de Git/GitHub para control de versiones.",
       "highlights": [
-        "Refactorización de código",
-        "Desarrollo de nuevas funcionalidades, envio de correos, manejo de sesiones, etc."
+        "Refactorización del código para mejorar escalabilidad y mantenibilidad",
+        "Desarrollo de funcionalidades como envío de correos y gestión de sesiones de usuario"
+      ]
+    },
+    {
+      "name": "NovaCode",
+      "position": "Front-end Developer (Freelance)",
+      "url": "",
+      "startDate": "2024-09-01",
+      "endDate": null,
+      "summary": "Trabajo como desarrollador freelance por proyecto para Novacode, participando en tareas de mantenimiento, creación y actualización de sitios web utilizando tecnologías como Shopify y WordPress.",
+      "highlights": [
+        "Mantenimiento y mejora de sitios web existentes desarrollados en Shopify y WordPress",
+        "Desarrollo y personalización de nuevas páginas, secciones y funcionalidades",
+        "Optimización de rendimiento y experiencia de usuario en sitios eCommerce",
+        "Trabajo independiente por proyectos, con responsabilidad en tiempos de entrega y calidad del código"
       ]
     }
   ],
@@ -63,10 +77,10 @@
       "url": "https://organization.com/",
       "startDate": "2023-09-01",
       "endDate": "2023-10-31",
-      "summary": "Encargado del desarrollo Web del aplicativo Munia sesiones 1:1,en donde a través de nuestros conocimientos pudimos realizar un ambiente de desarrollo y un aplicativo responsivo de alta calidad para entregar a nuestros clientes.",
+      "summary": "Encargado del desarrollo web del aplicativo Munia sesiones 1:1, creando un ambiente de desarrollo eficiente y un producto responsivo de alta calidad para los clientes.",
       "highlights": [
-        "Desarrollo, mantenimiento y actualización de la pagina web",
-        "Desarrollo de nuevas funcionalidades"
+        "Desarrollo, mantenimiento y actualización de la página web",
+        "Implementación de nuevas funcionalidades"
       ]
     }
   ],
@@ -284,6 +298,71 @@
       "name": "WordPress",
       "level": "Junior",
       "keywords": ["WordPress"]
+    },
+    {
+      "name": "HTML",
+      "level": "Junior",
+      "keywords": ["HTML5", "Pug", "HXML"]
+    },
+    {
+      "name": "MVC",
+      "level": "Junior",
+      "keywords": ["Model", "Controller"]
+    },
+    {
+      "name": "ClickUp",
+      "level": "Junior",
+      "keywords": ["ClickUp"]
+    },
+    {
+      "name": "Astro",
+      "level": "Junior",
+      "keywords": ["Astro"]
+    },
+    {
+      "name": "CSS",
+      "level": "Junior",
+      "keywords": ["CSS3"]
+    },
+    {
+      "name": "Sass",
+      "level": "Junior",
+      "keywords": ["Sass"]
+    },
+    {
+      "name": "Bootstrap",
+      "level": "Junior",
+      "keywords": ["Bootstrap"]
+    },
+    {
+      "name": "GitHub Copilot",
+      "level": "Junior",
+      "keywords": ["GitHub Copilot"]
+    },
+    {
+      "name": "ChatGPT",
+      "level": "Junior",
+      "keywords": ["ChatGPT"]
+    },
+    {
+      "name": "GPT-4",
+      "level": "Junior",
+      "keywords": ["GPT-4"]
+    },
+    {
+      "name": "Tabnine",
+      "level": "Junior",
+      "keywords": ["Tabnine"]
+    },
+    {
+      "name": "Cursor IDE",
+      "level": "Junior",
+      "keywords": ["Cursor IDE"]
+    },
+    {
+      "name": "VsCode AI",
+      "level": "Junior",
+      "keywords": ["VsCode AI"]
     }
   ],
   "languages": [
@@ -379,6 +458,34 @@
       ],
       "url": "https://front-six-liart.vercel.app/login",
       "isActive": false
+    },
+    {
+      "name": "E-commerce Marzo Atelier",
+      "startDate": "2024-09-01",
+      "endDate": null,
+      "description": "Proyecto de e-commerce desarrollado para Marzo Atelier, una tienda de muebles y diseño de interiores. El proyecto fue desarrollado en Shopify, haciendo uso de plantillas y distintas herramientas para un mejor desarrollo",
+      "highlights": [
+        "Desarrollo, mantenimiento y actualización de la tienda",
+        "Implementación de nuevas funcionalidades",
+        "Optimización del rendimiento",
+        "Shopify"
+      ],
+      "url": "https://marzoatelier.com/",
+      "isActive": true
+    },
+    {
+      "name": "Grupo medico prevencion",
+      "startDate": "2024-09-01",
+      "endDate": null,
+      "description": "Proyecto de blog y agendamiento de citas desarrollado para Grupo medico prevencion, una clínica especializada en salud. El proyecto fue desarrollado en Shopify, haciendo uso de plantillas y distintas herramientas para un mejor desarrollo",
+      "highlights": [
+        "Desarrollo, mantenimiento y actualización de la tienda",
+        "Implementación de nuevas funcionalidades",
+        "Optimización del rendimiento",
+        "WordPress"
+      ],
+      "url": "https://marzoatelier.com/",
+      "isActive": true
     }
   ]
 }
